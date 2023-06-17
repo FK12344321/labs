@@ -1,6 +1,6 @@
 ## DevOps principles and practices: 
 1) Automated code review is a practice that allows to assure the code quality without the real developers intervention, i.e. special tools such as linters check the code looking for the common problems in code (unused imports, security problems, bad naming, etc)
 2) Automated dashboards and monitoring tools let us to increase observability of our system. Due to the metrics and logs that we constantly collect we can keep track of the system stability. Grafana, ELK, Prometheus, etc to collect and process logs and metrics
-3) CI is a principle that lets us automate the building and testing process. With the CI tools we can describe the building and testing pipeline, so it gets done automatically. For example, GitLab CI to describe the pipeline 
+3) CI/CD are the principles that let us automate the building, testing and deployment processes. With the CI/CD tools we can describe the building, testing, and deployment pipeline, so it gets done automatically by the runner service. For example, GitLab CI to describe the pipeline 
 4) IaC is a principle that assumes that we configure our infrastructure as code with special configuration files that makes the system more flexible. For example, Ansible to configure the system 
 5) Blameless postmortems is an SRE practice that statems that while writing reports after the incidents we do not blame the developers or anyone else, but try to analyze and understand how to avoid them in the future and make them impossible to reaccure
