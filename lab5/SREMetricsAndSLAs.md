@@ -12,4 +12,6 @@ GitHub <a href=https://github.com/customer-terms/github-online-services-sla>link
 
 In case of GitHub actions the values for the uptime is the same, but it is calculated differently. It is the ratio of successful triggered executions to the total number of executions. 
 
+The formulation of the SLA depends on the purpose of the product. Each team specifies the important functions of the project that are important to the users to maximize the user experience. For example, in case of using social networks we care about the continious availability time, while using some servises where we need to generate something (for example a picture by the api), we (as users) care about the number of successful requests. 
+
 Discovered facts: I found out that different services use different metrics to evaluate the qulity of the user experience. 
